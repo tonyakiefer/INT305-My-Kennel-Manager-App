@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myPets"
+        android:icon="@drawable/ic_dog_foreground"
+        android:title="@string/my_pets" />
+
+    <item
+        android:id="@+id/vetRecords"
+        android:icon="@drawable/ic_vet_foreground"
+        android:title="@string/vet_records" />
+
+    <item
+        android:id="@+id/upcomingEvents"
+        android:title="@string/upcoming_events"
+        android:icon="@drawable/ic_calendar_foreground"/>
+
+    <item
+        android:id="@+id/myPhotos"
+        android:title="@string/my_photos"
+        android:icon="@drawable/ic_camera_foreground"/>
+
+    <item
+        android:id="@+id/showPoints"
+        android:title="@string/show_points"
+        android:icon="@drawable/ic_trophy_foreground"/>
+
+</menu>
